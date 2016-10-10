@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "CircleMenuScrollView.h"
 
-@interface ViewController ()
+@interface ViewController () <CircleMenuScrollViewDelegate>
+
+@property (nonatomic, strong) NSMutableArray *menuButtonModelArray;
 
 @end
 
@@ -16,12 +19,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect circleMenuScrollViewFrame = CGRectMake(0, 64, self.view.bounds.size.width, 200);
+    
+    CircleMenuScrollView *circleMenuScrollView = [[CircleMenuScrollView alloc] initWithFrame:circleMenuScrollViewFrame menuButtonModelArry:self.menuButtonModelArray];
+    circleMenuScrollView.delegate = self;
+    
+    [self.view addSubview:circleMenuScrollView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSMutableArray *)menuButtonModelArray {
+    if (nil == _menuButtonModelArray) {
+        NSMutableArray *menuButtonModelArray = [NSMutableArray array];
+        
+        for (int i = 0; i < 33; i++) {
+            MenuButtonModel *menuButtonModel = [[MenuButtonModel alloc] init];
+            
+            menuButtonModel.menuName = [NSString stringWithFormat:@"菜单[%02d]", i];
+            menuButtonModel.imageName = @"index-icon2";
+            menuButtonModel.serverUrl = @"";
+            
+            [menuButtonModelArray addObject:menuButtonModel];
+        }
+        
+        _menuButtonModelArray = menuButtonModelArray;
+    }
+    
+    return _menuButtonModelArray;
+}
+
+- (void)circleMenuScrollView:(CircleMenuScrollView *)circleMenuScrollView didClickedActionAtIndex:(NSInteger)index {
+    NSLog(@"%zd", index);
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D503962C1DAA726100B0A41B /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = D503962B1DAA726100B0A41B /* UIButton+Vertical.m */; };
+		D503963A1DAB287600B0A41B /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D50396391DAB287600B0A41B /* MenuButton.m */; };
 		D5D1E0791DAA22790070D7BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1E0781DAA22790070D7BF /* main.m */; };
 		D5D1E07C1DAA22790070D7BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1E07B1DAA22790070D7BF /* AppDelegate.m */; };
 		D5D1E07F1DAA22790070D7BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1E07E1DAA22790070D7BF /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		D5D1E0871DAA22790070D7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D1E0851DAA22790070D7BF /* LaunchScreen.storyboard */; };
 		D5D1E0921DAA22790070D7BF /* _0161009001_UIScrollView_CircleMenuScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1E0911DAA22790070D7BF /* _0161009001_UIScrollView_CircleMenuScrollViewTests.m */; };
 		D5D1E09D1DAA22790070D7BF /* _0161009001_UIScrollView_CircleMenuScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1E09C1DAA22790070D7BF /* _0161009001_UIScrollView_CircleMenuScrollViewUITests.m */; };
+		D5D1E0AC1DAA22870070D7BF /* CircleMenuScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1E0AB1DAA22870070D7BF /* CircleMenuScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D503962A1DAA726100B0A41B /* UIButton+Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Vertical.h"; sourceTree = "<group>"; };
+		D503962B1DAA726100B0A41B /* UIButton+Vertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Vertical.m"; sourceTree = "<group>"; };
+		D50396381DAB287600B0A41B /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		D50396391DAB287600B0A41B /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
 		D5D1E0741DAA22790070D7BF /* 20161009001-UIScrollView-CircleMenuScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20161009001-UIScrollView-CircleMenuScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D1E0781DAA22790070D7BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5D1E07A1DAA22790070D7BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		D5D1E0981DAA22790070D7BF /* 20161009001-UIScrollView-CircleMenuScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20161009001-UIScrollView-CircleMenuScrollViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D1E09C1DAA22790070D7BF /* _0161009001_UIScrollView_CircleMenuScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0161009001_UIScrollView_CircleMenuScrollViewUITests.m; sourceTree = "<group>"; };
 		D5D1E09E1DAA22790070D7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D1E0AA1DAA22870070D7BF /* CircleMenuScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleMenuScrollView.h; sourceTree = "<group>"; };
+		D5D1E0AB1DAA22870070D7BF /* CircleMenuScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleMenuScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				D5D1E07B1DAA22790070D7BF /* AppDelegate.m */,
 				D5D1E07D1DAA22790070D7BF /* ViewController.h */,
 				D5D1E07E1DAA22790070D7BF /* ViewController.m */,
+				D5D1E0AA1DAA22870070D7BF /* CircleMenuScrollView.h */,
+				D5D1E0AB1DAA22870070D7BF /* CircleMenuScrollView.m */,
+				D503962A1DAA726100B0A41B /* UIButton+Vertical.h */,
+				D503962B1DAA726100B0A41B /* UIButton+Vertical.m */,
+				D50396381DAB287600B0A41B /* MenuButton.h */,
+				D50396391DAB287600B0A41B /* MenuButton.m */,
 				D5D1E0801DAA22790070D7BF /* Main.storyboard */,
 				D5D1E0831DAA22790070D7BF /* Assets.xcassets */,
 				D5D1E0851DAA22790070D7BF /* LaunchScreen.storyboard */,
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					D5D1E0731DAA22790070D7BF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TYM245E8PV;
 					};
 					D5D1E08C1DAA22790070D7BF = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D503962C1DAA726100B0A41B /* UIButton+Vertical.m in Sources */,
 				D5D1E07F1DAA22790070D7BF /* ViewController.m in Sources */,
+				D503963A1DAB287600B0A41B /* MenuButton.m in Sources */,
 				D5D1E07C1DAA22790070D7BF /* AppDelegate.m in Sources */,
+				D5D1E0AC1DAA22870070D7BF /* CircleMenuScrollView.m in Sources */,
 				D5D1E0791DAA22790070D7BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TYM245E8PV;
 				INFOPLIST_FILE = "20161009001-UIScrollView-CircleMenuScrollView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sand.rainer.-0161009001-UIScrollView-CircleMenuScrollView";
@@ -424,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TYM245E8PV;
 				INFOPLIST_FILE = "20161009001-UIScrollView-CircleMenuScrollView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sand.rainer.-0161009001-UIScrollView-CircleMenuScrollView";
@@ -496,6 +517,7 @@
 				D5D1E0A31DAA22790070D7BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5D1E0A41DAA22790070D7BF /* Build configuration list for PBXNativeTarget "20161009001-UIScrollView-CircleMenuScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				D5D1E0A61DAA22790070D7BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5D1E0A71DAA22790070D7BF /* Build configuration list for PBXNativeTarget "20161009001-UIScrollView-CircleMenuScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +535,7 @@
 				D5D1E0A91DAA22790070D7BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
