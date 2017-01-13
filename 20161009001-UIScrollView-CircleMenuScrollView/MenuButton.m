@@ -20,7 +20,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    CGSize textSize = [self.titleLabel.text sizeWithAttributes:@{@"NSFontAttributeName" : self.titleLabel.font}];
+    CGSize textSize = [self.titleLabel.text sizeWithAttributes:@{NSFontAttributeName : self.titleLabel.font}];
     
     CGFloat imageViewX = 0;
     CGFloat imageViewY = 0;
